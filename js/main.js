@@ -1,7 +1,7 @@
-const name = prompt ("Scrivi il tuo nome");
-const surname = prompt ("Scrivi il tuo cognome");
-const favColor = prompt ("Scrivi il tuo colore preferito");
+let datoUno = prompt ("Scrivi il tuo nome");
+let surname = prompt ("Scrivi il tuo cognome");
+let favColor = prompt ("Scrivi il tuo colore preferito");
 
-let newPassword = name + surname + favColor; 
+let newPassword = datoUno + surname + favColor;
 
-document.getElementById("titolo").innerHTML = surnamee;
+document.getElementById("titolo").innerHTML = newPassword;
